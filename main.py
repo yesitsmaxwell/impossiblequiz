@@ -1,4 +1,6 @@
-number = 1
+import random
+numberoptions = [1, 2, 3, 4, 5, 6, 7, 8 ,9]
+number = (random.choice(numberoptions))
 while True:
     print('What is')
     print(number)
